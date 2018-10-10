@@ -1,13 +1,15 @@
 import React from 'react';
 
-import HomeHeader from './HomeHeader';
-import Bio from './Bio';
+import HomeSummary from './HomeSummary';
+import Experience from './Experience';
+import AboutMe from './AboutMe';
 
 export default function Home() {
 	return (
 		<div>
-			<HomeHeader />
-			<Bio />
+			<HomeSummary />
+			<Experience />
+			<AboutMe />
 		</div>
 	);
 }
