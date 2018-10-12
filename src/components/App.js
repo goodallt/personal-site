@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Home from './home/Home';
+import Home from 'components/home/Home';
 
 const StyledApp = styled.div`
 	padding: 3em 7em;

@@ -1,7 +1,12 @@
+@font-face {
+  font-family: Quinta;
+  src: url('/fonts/Gidole-Regular.otf');
+}
+
 body {
 	margin: 0;
   padding: 0;
-  font-family: "Gotuham", sans-serif;
+  font-family: "Quinta";
   line-height: 1.5;
 }
 
