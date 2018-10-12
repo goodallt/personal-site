@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SubHeader from 'components/home/SubHeader';
+import { SubHeader } from 'components/home/Headers';
 import HomeP from 'components/home/HomeP';
 
 export default function AboutMe() {

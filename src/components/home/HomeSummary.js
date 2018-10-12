@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import MainHeader from 'components/home/MainHeader';
+import { MainHeader } from 'components/home/Headers';
 import { SideBar, MainAndSideBarContainer } from 'components/shared/SideBar';
 
 const ButtonGroup = styled.div`
@@ -36,11 +36,11 @@ const SummaryP = styled.p`
 export default function HomeSummary() {
 	return (
 		<MainAndSideBarContainer>
-			<section>
+			<main>
 				<header><MainHeader>Todd Goodall</MainHeader></header>
 				<SummaryP>I'm a software engineer based in Seattle WA. I specialize in building full stack web applications.</SummaryP>
 				<SummaryP>In my free time I'm a traveler, a personal finance enthusiast, a practicing <a href="//mrmoneymustache.com/2011/10/02/what-is-stoicism-and-how-can-it-turn-your-life-to-solid-gold/" target="_blank" rel="noopener noreferrer">stoic</a>, and an aspiring mountaineer.</SummaryP>
-			</section>
+			</main>
 
 			<SideBar>
 				<ProfileImg alt="Todd Goodall's face" src="/profilepic.jpg" />

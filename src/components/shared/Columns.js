@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const TwoColumnContainer = styled.section`
+export const TwoColumnContainer = styled.div`
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 `;
