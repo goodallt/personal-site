@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const HomeP = styled.p`
-	margin: 1em 0;
+	margin: 1em 0 0;
 	font-size: 1.2em;
 `;
 

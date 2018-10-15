@@ -8,9 +8,18 @@ body {
   padding: 0;
   font-family: "Quinta";
   line-height: 1.5;
-  background-color: #d3d3d3;
+  background-color: #eaeaea;
 }
 
 h1, h2, h3, p {
 	margin: 0;
+}
+
+ul {
+	padding-inline-start: 1em;
+	margin-bottom: 0;
+}
+
+h1, h2, a, b {
+	color: #2434ad;
 }

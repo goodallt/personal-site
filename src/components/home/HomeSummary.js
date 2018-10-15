@@ -14,7 +14,7 @@ const ImgButton = styled.img`
 	padding: 0.25em;
 `;
 
-const HEADER_IMG_SIZE = 14;
+const HEADER_IMG_SIZE = 16;
 const ProfileImg = styled.img`
 	width: ${HEADER_IMG_SIZE}em;
 	height: ${HEADER_IMG_SIZE}em;
@@ -23,9 +23,9 @@ const ProfileImg = styled.img`
 	margin: 1em;
 `;
 
-const EmailP = styled.p`
+const EmailAddress = styled.address`
 	text-align: center;
-	font-size: 1.2em;
+	font-size: 1.4em;
 `;
 
 const SummaryP = styled.p`
@@ -37,9 +37,10 @@ export default function HomeSummary() {
 	return (
 		<MainAndSideBarContainer>
 			<main>
-				<header><MainHeader>Todd Goodall</MainHeader></header>
-				<SummaryP>I'm a software engineer based in Seattle WA. I specialize in building full stack web applications.</SummaryP>
-				<SummaryP>In my free time I'm a traveler, a personal finance enthusiast, a practicing <a href="//mrmoneymustache.com/2011/10/02/what-is-stoicism-and-how-can-it-turn-your-life-to-solid-gold/" target="_blank" rel="noopener noreferrer">stoic</a>, and an aspiring mountaineer.</SummaryP>
+				<SummaryP>Hi, I'm Todd</SummaryP>
+				<SummaryP>I'm a software engineer based in Seattle, WA</SummaryP>
+				<SummaryP>I like to work on building web applications for small to mid-sized businesses</SummaryP>
+				<SummaryP>In my free time I'm a traveler, a personal finance enthusiast, a practicing <a href="//mrmoneymustache.com/2011/10/02/what-is-stoicism-and-how-can-it-turn-your-life-to-solid-gold/" target="_blank" rel="noopener noreferrer">stoic</a>, and an aspiring mountaineer</SummaryP>
 			</main>
 
 			<SideBar>
@@ -49,7 +50,7 @@ export default function HomeSummary() {
 					<a href="//github.com/goodallt" target="_blank" rel="noopener noreferrer"><ImgButton src="/icons/github.svg" /></a>
 					<a href="//www.facebook.com/toddpgoodall" target="_blank" rel="noopener noreferrer"><ImgButton src="/icons/facebook.svg" /></a>
 				</ButtonGroup>
-				<EmailP>contact@toddpgoodall.com</EmailP>
+				<EmailAddress>contact@toddpgoodall.com</EmailAddress>
 			</SideBar>
 		</MainAndSideBarContainer>
 	);
