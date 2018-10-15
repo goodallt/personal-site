@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 
 import { SubHeader } from 'components/home/Headers';
 import HomeP from 'components/home/HomeP';

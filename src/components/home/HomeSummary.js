@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { MainHeader } from 'components/home/Headers';
 import { SideBar, MainAndSideBarContainer } from 'components/shared/SideBar';
 
 const ButtonGroup = styled.div`

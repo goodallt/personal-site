@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import { SubHeader, SubSubHeader } from 'components/home/Headers';
 import HomeP from 'components/home/HomeP';
-import { TwoColumnContainer, Column } from 'components/shared/Columns';
+import { TwoColumnContainer } from 'components/shared/Columns';
 import Section from 'components/shared/Section';
 
 const ExperienceSectionHeader = styled.h3`
