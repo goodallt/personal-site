@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import { SideBar, MainAndSideBarContainer } from 'components/shared/SideBar';
+import media from 'media';
 
 const ButtonGroup = styled.div`
 	display: flex;
@@ -13,10 +14,12 @@ const ImgButton = styled.img`
 	padding: 0.25em;
 `;
 
-const HEADER_IMG_SIZE = 16;
+const HEADER_IMG_SIZE = 18;
 const ProfileImg = styled.img`
 	width: ${HEADER_IMG_SIZE}em;
-	height: ${HEADER_IMG_SIZE}em;
+	${media.desktop`
+		width: ${HEADER_IMG_SIZE - 2}em
+	`}
 	border-radius: 50%;
 	box-shadow: 0.2em 0.2em 1em rgba(0, 0, 0, 0.5);
 	margin: 1em;
@@ -43,7 +46,9 @@ export default function HomeSummary() {
 			</main>
 
 			<SideBar>
-				<ProfileImg alt="Todd Goodall's face" src="/profilepic.jpg" />
+				<div>
+					<ProfileImg alt="Todd Goodall's face" src="/profilepic.jpg" />
+				</div>
 				<ButtonGroup>
 					<a href="//linkedin.com/in/toddpgoodall" target="_blank" rel="noopener noreferrer"><ImgButton src="/icons/linkedin.svg" /></a>
 					<a href="//github.com/goodallt" target="_blank" rel="noopener noreferrer"><ImgButton src="/icons/github.svg" /></a>

@@ -1,9 +1,14 @@
 import styled from 'styled-components';
+import media from 'media';
 
 export const MainHeader = styled.h1`
-	font-size: 5em;
 	font-weight: normal;
 	padding-bottom: 0.25em;
+	font-size: 4em;
+
+	${media.tablet`
+		font-size: 5em;
+	`}
 `;
 
 export const SubHeader = styled.h2`
