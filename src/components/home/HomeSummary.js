@@ -14,15 +14,19 @@ const ImgButton = styled.img`
 	padding: 0.25em;
 `;
 
-const HEADER_IMG_SIZE = 18;
+const HEADER_IMG_SIZE = 16;
 const ProfileImg = styled.img`
-	width: ${HEADER_IMG_SIZE}em;
-	${media.desktop`
-		width: ${HEADER_IMG_SIZE - 2}em
-	`}
 	border-radius: 50%;
 	box-shadow: 0.2em 0.2em 1em rgba(0, 0, 0, 0.5);
 	margin: 1em;
+
+	width: ${HEADER_IMG_SIZE}em;
+	${media.tablet`
+		width: ${HEADER_IMG_SIZE + 4}em
+	`}
+	${media.desktop`
+		width: ${HEADER_IMG_SIZE}em
+	`}
 `;
 
 const EmailAddress = styled.address`
